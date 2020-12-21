@@ -21,6 +21,13 @@ span {
 	font-size: 3rem;
 }
 
+span.animate__animated.animate__bounce {
+	--animate-duration: 10s;
+}
+p {
+	color:red;
+}
+
 #first {
 	color: green;
 }
@@ -93,6 +100,6 @@ span#name {
  font-size: small;
 }
 
-.animate__animated.animate__bounceInLeft {
+.animate__animated.animate__hinge {
   --animate-duration: 3s;
 }
